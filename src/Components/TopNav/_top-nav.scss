@@ -1,0 +1,79 @@
+$icon-font: 1.3em;
+$element-height: 2.5em;
+
+
+.header{
+  max-width: 100%;
+  box-shadow: 5px 5px 20px gray;
+}
+
+.top-nav-row div{
+  display: inline-block;
+
+}
+
+.brand{
+  margin-left: 2%;
+  padding: 0.8em;
+  width: 23%;
+}
+
+.inp-container input{
+  display: inline-block;
+  width: 75%;
+  height: $element-height;
+}
+
+.inp-container button{
+  width: 10%;
+  height: $element-height;
+  border: none;
+  background-color: gray;
+  color: white;
+}
+.dropdown{
+  width: 15%;
+}
+
+.select-btn{
+  height: $element-height;
+  border: none;
+  background-color: gray;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+.login-container{
+  width: 15%;
+  text-align: right;
+  margin: 1.7em 0.2em 0 0 ;
+}
+
+.login-container h5,i{
+  display: inline-block;
+}
+
+.login-container a{
+  text-decoration: none;
+  color: black;
+}
+
+.user-icon{
+  margin-right: 0.5em;
+  padding: 0.2em;
+  font-size: $icon-font;
+}
+
+.cart-wishlist .list-icon{
+  font-size: $icon-font;
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+.cart-wishlist{
+  width: 7%;
+  margin-top: 1.7em;
+
+}
