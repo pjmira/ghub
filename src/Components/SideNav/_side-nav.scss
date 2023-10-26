@@ -34,4 +34,14 @@
       @include underline-transition(0.5);
     }
   }
+  .price-filter-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+}
+.filter-btn{
+  height: 1.8em;
+  font-size: 1.2em;
 }

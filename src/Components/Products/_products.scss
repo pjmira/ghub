@@ -6,7 +6,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
+ 
+  
 
 
     .product-card{
@@ -14,13 +15,22 @@
       margin-bottom: 1em;
       box-shadow: 3px 1px 14px 0px lightgray;
       border-radius: 0.6em;
+      
 
       .product-image-container{
         display: flex;
         justify-content: center;
+        // height: 250px;
+        // width: 250px;
+        // padding: 20px;
+        
         img{
-          
-          border-radius: 0.4em;
+          padding: 2em;
+          margin: 10px;
+          border-radius: 0.4em;   
+          width: 250px;
+          height: 250px;       
+         
         }
       }
       .product-info{
@@ -39,6 +49,41 @@
           i{
             color: gold;
             font-size: small;
+          }
+        }
+      }
+      .cart-button-container{
+        margin: 2em;
+        
+        
+        .cart-button{
+          display: flex;
+          justify-content: space-evenly;
+          margin-top: 1em;
+          width: 100%;
+          height: 2em;
+          border: 1px solid black;
+          border-radius: 1em;
+
+          .cart-icon-container{
+            padding:0.3em;
+            width: 2em;
+
+            i{
+              font-size: 1.2em;
+            }
+          }
+          .cart-text-container{
+            padding: 0.2em;
+            p{
+              font-weight: 600;
+              font-size: 1em;
+             
+            }
+          }
+          &:hover{
+            cursor: pointer;
+            box-shadow: inset lightgray 1px 2px 5px;
           }
         }
       }
